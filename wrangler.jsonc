@@ -1,0 +1,9 @@
+// Configuración de Cloudflare Workers para excavacionesmag.es
+// Solo se publica el contenido de la carpeta "public".
+{
+  "name": "excavacionesmag",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
