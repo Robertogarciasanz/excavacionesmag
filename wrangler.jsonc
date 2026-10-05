@@ -5,5 +5,10 @@
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./public"
-  }
+  },
+  // Dominios propios: Cloudflare crea los registros DNS y el certificado al desplegar.
+  "routes": [
+    { "pattern": "excavacionesmag.es", "custom_domain": true },
+    { "pattern": "www.excavacionesmag.es", "custom_domain": true }
+  ]
 }
