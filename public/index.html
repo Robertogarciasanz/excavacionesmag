@@ -32,6 +32,8 @@
   "logo": "https://excavacionesmag.es/icono-512.png",
   "image": "https://excavacionesmag.es/img/mixta-zanja.webp",
   "telephone": "+34654158664",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=41.625563,-4.705922",
+  "geo": { "@type": "GeoCoordinates", "latitude": 41.625563, "longitude": -4.705922 },
   "sameAs": ["https://share.google/i5OhfdzvunIczXzK6"],
   "taxID": "70804620V",
   "founder": {
@@ -196,6 +198,11 @@ section{padding:88px 0}
 .tarjeta small{color:var(--amarillo);font-weight:600;text-transform:uppercase;letter-spacing:1px;font-size:.78rem}
 .tarjeta b{display:block;font-family:Archivo;font-size:1.35rem;margin:8px 0 4px}
 .tarjeta span{opacity:.75;font-size:.93rem}
+.mapa-google{margin-top:20px;border-radius:var(--radio);overflow:hidden;background:var(--asfalto);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.mapa-google iframe{display:block;width:100%;height:380px;border:0}
+.mapa-google .pie-mapa{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:16px 20px;color:var(--blanco)}
+.mapa-google .pie-mapa span{opacity:.8;font-size:.93rem}
+@media (max-width:560px){.mapa-google iframe{height:300px}}
 
 /* Pie */
 footer{background:#121417;color:rgba(255,255,255,.65);padding:40px 0;font-size:.88rem}
@@ -397,6 +404,13 @@ footer b{color:var(--blanco)}
       <a class="tarjeta" href="https://wa.me/34654158664?text=Hola%2C%20quer%C3%ADa%20pedir%20presupuesto" target="_blank" rel="noopener"><small>WhatsApp</small><b>Escríbenos</b><span>Envíanos fotos de tu obra</span></a>
       <a class="tarjeta" href="presupuestos.html"><small>Online</small><b>Presupuestador</b><span>Calcula tu obra con +61.000 partidas</span></a>
       <a class="tarjeta" href="https://share.google/i5OhfdzvunIczXzK6" target="_blank" rel="noopener"><small>Dirección · Google</small><b>C/ Estación, 3</b><span>05290 Sanchidrián (Ávila) · Ver ficha y reseñas en Google</span></a>
+    </div>
+    <div class="mapa-google">
+      <iframe src="https://maps.google.com/maps?q=41.625563,-4.705922&z=15&hl=es&output=embed" title="Ubicación de Excavaciones MAG en Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <div class="pie-mapa">
+        <span>📍 Encuéntranos en Google Maps · J7GV+6JG Valladolid</span>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-borde" href="https://share.google/i5OhfdzvunIczXzK6" target="_blank" rel="noopener">Ver ficha en Google</a><a class="btn btn-amarillo" href="https://www.google.com/maps/dir/?api=1&destination=41.625563,-4.705922" target="_blank" rel="noopener">Cómo llegar</a></div>
+      </div>
     </div>
   </div>
 </section>
