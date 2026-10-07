@@ -182,11 +182,9 @@ section{padding:88px 0}
 .ventaja h3{margin:12px 0 8px;font-size:1.15rem}
 .ventaja p{color:rgba(255,255,255,.72);font-size:.95rem}
 
-.zona{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.zona{max-width:820px}
 .pueblos{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .pueblos span{background:var(--blanco);border:1px solid #e3ddd3;padding:8px 14px;border-radius:999px;font-size:.92rem}
-.mapa{background:var(--blanco);border-radius:var(--radio);padding:28px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
-.mapa svg{width:100%;height:auto}
 
 /* Contacto */
 .contacto{background:linear-gradient(135deg,var(--amarillo),#f7c948);color:var(--asfalto)}
@@ -217,7 +215,6 @@ footer b{color:var(--blanco)}
 @media (max-width:900px){
   .servicios{grid-template-columns:repeat(2,1fr)}
   .ventajas,.tarjetas{grid-template-columns:1fr}
-  .zona{grid-template-columns:1fr}
   nav{display:none}
   .cab-tel{display:inline-flex}
 }
@@ -304,7 +301,7 @@ footer b{color:var(--blanco)}
         <p>Demoliciones, muros, soleras, reformas, cerramientos y todo tipo de trabajos de albañilería.</p>
       </article>
       <article class="servicio">
-        <img class="foto" src="img/miniexcavadora.webp" alt="Miniexcavadora disponible para alquiler" loading="lazy" width="800" height="500">
+        <img class="foto" src="img/vaciado-solar.webp" alt="Retroexcavadora mixta CAT 438D disponible para alquiler con operario" loading="lazy" width="800" height="500">
         <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M5 18H3v-5l3-5h6v10M9 18h6M12 11h7l2 3v4h-2"/></svg></div>
         <h3>Alquiler de maquinaria</h3>
         <p>Retroexcavadoras, miniexcavadoras y camiones, con operario o sin él, para obras de cualquier tamaño.</p>
@@ -337,7 +334,6 @@ footer b{color:var(--blanco)}
       <figure data-cat="excavaciones"><img src="img/zanja-operarios.webp" alt="Operarios trabajando en una zanja junto a la retroexcavadora" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
       <figure data-cat="excavaciones"><img src="img/mixta-zanja.webp" alt="Retroexcavadora mixta abriendo una zanja" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
       <figure data-cat="excavaciones"><img src="img/mini-zanja.webp" alt="Zanja junto a una vivienda con miniexcavadora" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
-      <figure data-cat="excavaciones"><img src="img/miniexcavadora.webp" alt="Miniexcavadora trabajando en obra" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
       <figure data-cat="vaciados"><img src="img/piscina.webp" alt="Vaciado de terreno para piscina de obra" loading="lazy" width="800" height="600"><figcaption>Vaciados</figcaption></figure>
       <figure data-cat="derribos"><img src="img/retro-demolicion-2.webp" alt="Retroexcavadora derribando un muro" loading="lazy" width="800" height="600"><figcaption>Derribos</figcaption></figure>
       <figure data-cat="derribos"><img src="img/retro-demolicion.webp" alt="Derribo de una edificación con retroexcavadora" loading="lazy" width="800" height="600"><figcaption>Derribos</figcaption></figure>
@@ -373,21 +369,6 @@ footer b{color:var(--blanco)}
       <div class="pueblos">
         <span>Sanchidrián</span><span>Ávila</span><span>Arévalo</span><span>Adanero</span><span>Las Berlanas</span><span>Velayos</span><span>Medina del Campo</span><span>Valladolid</span><span>Tudela de Duero</span><span>Laguna de Duero</span><span>Simancas</span><span>Y más</span>
       </div>
-    </div>
-    <div class="mapa" aria-hidden="true">
-      <svg viewBox="0 0 300 260">
-        <path d="M60 20 L200 14 L262 60 L270 120 L250 190 L190 246 L100 242 L46 196 L30 120 L36 60Z" fill="#f6f3ee" stroke="#d8cfc2" stroke-width="2"/>
-        <path d="M30 70 C90 62 130 82 170 70 S240 56 272 66" stroke="#7fb2d6" stroke-width="4" fill="none" stroke-linecap="round"/>
-        <path d="M118 58 L132 120 L150 160 L178 214" stroke="#c9bfb1" stroke-width="3" stroke-dasharray="6 5" fill="none"/>
-        <text x="186" y="208" font-family="Inter" font-size="10" fill="#5f6670">A-6</text>
-        <circle cx="118" cy="58" r="6" fill="#8a5a32"/><text x="60" y="48" font-family="Inter" font-size="12" fill="#5f6670">Valladolid</text>
-        <circle cx="160" cy="62" r="4" fill="#8a5a32"/><text x="168" y="54" font-family="Inter" font-size="11" fill="#5f6670">Tudela</text>
-        <circle cx="132" cy="120" r="4" fill="#8a5a32"/><text x="58" y="124" font-family="Inter" font-size="11" fill="#5f6670">Arévalo</text>
-        <circle cx="190" cy="228" r="6" fill="#8a5a32"/><text x="200" y="232" font-family="Inter" font-size="12" fill="#5f6670">Ávila</text>
-        <circle cx="150" cy="160" r="24" fill="#f2b705" opacity=".25"/>
-        <circle cx="150" cy="160" r="8" fill="#f2b705" stroke="#1c1f23" stroke-width="2"/>
-        <text x="166" y="158" font-family="Archivo" font-weight="700" font-size="13" fill="#1c1f23">Sanchidrián</text>
-      </svg>
     </div>
   </div>
 </section>
