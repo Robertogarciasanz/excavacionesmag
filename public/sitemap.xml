@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://excavacionesmag.es/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://excavacionesmag.es/img/zanja-retro-urbanizacion.webp</image:loc><image:title>Excavación de zanja con retroexcavadora en una urbanización</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/vaciado-solar.webp</image:loc><image:title>Vaciado de solar con retroexcavadora CAT 438D</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/derribo-escombros.webp</image:loc><image:title>Retirada de escombros de un derribo</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/desbroce-parcela.webp</image:loc><image:title>Limpieza forestal y desbroce de parcela</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/zanja-campo.webp</image:loc><image:title>Zanja para canalización en una finca</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/explanacion-terreno.webp</image:loc><image:title>Explanación y nivelación del terreno</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/zanja-operarios.webp</image:loc><image:title>Operarios trabajando en una zanja</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/mixta-zanja.webp</image:loc><image:title>Retroexcavadora mixta abriendo una zanja</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/mini-zanja.webp</image:loc><image:title>Zanja junto a una vivienda</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/piscina.webp</image:loc><image:title>Vaciado de terreno para piscina</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/retro-demolicion-2.webp</image:loc><image:title>Derribo de un muro con retroexcavadora</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/retro-demolicion.webp</image:loc><image:title>Derribo de una edificación</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/terreno-limpio.webp</image:loc><image:title>Parcela limpia tras el derribo</image:title></image:image>
+    <image:image><image:loc>https://excavacionesmag.es/img/logo-mag.webp</image:loc><image:title>Logotipo de Excavaciones MAG</image:title></image:image>
   </url>
   <url>
-    <loc>https://excavacionesmag.es/presupuestos.html</loc>
-    <lastmod>2026-10-05</lastmod>
+    <loc>https://excavacionesmag.es/presupuestos</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
