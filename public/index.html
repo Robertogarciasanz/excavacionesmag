@@ -8,21 +8,21 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#1c1f23">
-<title>Excavaciones MAG | Excavación, piscinas y alquiler de maquinaria en Valladolid</title>
-<meta name="description" content="Excavaciones, construcción de piscinas, albañilería y alquiler de maquinaria en Tudela de Duero y provincia de Valladolid. Presupuesto sin compromiso: 654 158 664.">
+<title>Excavaciones MAG | Excavación, piscinas y alquiler de maquinaria en Ávila y Valladolid</title>
+<meta name="description" content="Excavaciones, construcción de piscinas, albañilería y alquiler de maquinaria en Sanchidrián, provincia de Ávila y Valladolid. Presupuesto sin compromiso: 654 158 664.">
 <link rel="canonical" href="https://excavacionesmag.es/">
 <meta name="robots" content="index, follow">
-<meta name="keywords" content="excavaciones Valladolid, excavaciones Tudela de Duero, movimiento de tierras, construcción de piscinas, demoliciones, albañilería, alquiler de maquinaria, miniexcavadora, retroexcavadora">
+<meta name="keywords" content="excavaciones Ávila, excavaciones Sanchidrián, excavaciones Arévalo, excavaciones Valladolid, excavaciones Tudela de Duero, derribos, vaciados, limpiezas forestales, desbroces, movimiento de tierras, construcción de piscinas, demoliciones, albañilería, alquiler de maquinaria, miniexcavadora, retroexcavadora">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_ES">
 <meta property="og:site_name" content="Excavaciones MAG">
-<meta property="og:title" content="Excavaciones MAG | Excavación, piscinas y alquiler de maquinaria en Valladolid">
-<meta property="og:description" content="Excavaciones, piscinas, albañilería, demoliciones y alquiler de maquinaria en Tudela de Duero y provincia de Valladolid. Tel. 654 158 664.">
+<meta property="og:title" content="Excavaciones MAG | Excavación, piscinas y alquiler de maquinaria en Ávila y Valladolid">
+<meta property="og:description" content="Excavaciones, piscinas, albañilería, demoliciones y alquiler de maquinaria en Sanchidrián, provincia de Ávila y Valladolid. Tel. 654 158 664.">
 <meta property="og:url" content="https://excavacionesmag.es/">
 <meta property="og:image" content="https://excavacionesmag.es/img/mixta-zanja.webp">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="geo.region" content="ES-VA">
-<meta name="geo.placename" content="Tudela de Duero">
+<meta name="geo.region" content="ES-AV">
+<meta name="geo.placename" content="Sanchidrián">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,23 +32,24 @@
   "logo": "https://excavacionesmag.es/icono-512.png",
   "image": "https://excavacionesmag.es/img/mixta-zanja.webp",
   "telephone": "+34654158664",
+  "taxID": "70804620V",
   "founder": {
     "@type": "Person",
-    "name": "Chistian Arribas"
+    "name": "Christian Arribas Maroto"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Calle Manzano, 2",
-    "postalCode": "47320",
-    "addressLocality": "Tudela de Duero",
-    "addressRegion": "Valladolid",
+    "streetAddress": "Calle Estación, 3",
+    "postalCode": "05290",
+    "addressLocality": "Sanchidrián",
+    "addressRegion": "Ávila",
     "addressCountry": "ES"
   },
-  "areaServed": {
-    "@type": "AdministrativeArea",
-    "name": "Provincia de Valladolid"
-  },
-  "description": "Excavaciones, movimiento de tierras, construcción de piscinas, albañilería, demoliciones y alquiler de maquinaria en Tudela de Duero y provincia de Valladolid.",
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Provincia de Ávila" },
+    { "@type": "AdministrativeArea", "name": "Provincia de Valladolid" }
+  ],
+  "description": "Excavaciones, movimiento de tierras, construcción de piscinas, albañilería, demoliciones, vaciados, limpiezas forestales y alquiler de maquinaria en Sanchidrián, provincia de Ávila y Valladolid.",
   "makesOffer": [
     {
       "@type": "Offer",
@@ -134,6 +135,9 @@ nav a:hover{opacity:1;color:var(--amarillo)}
 .portada p{font-size:1.15rem;max-width:620px;margin:22px 0 34px;opacity:.88}
 .acciones{display:flex;flex-wrap:wrap;gap:14px}
 .datos{display:flex;flex-wrap:wrap;gap:40px;margin-top:56px}
+.portada .contenedor{position:relative}
+.logo-portada{position:absolute;right:20px;top:0;width:300px;height:auto;background:#fff;border-radius:18px;padding:14px;box-shadow:0 14px 40px rgba(0,0,0,.35)}
+@media (max-width:1100px){.logo-portada{display:none}}
 .dato b{display:block;font-family:Archivo;font-size:1.9rem;color:var(--amarillo)}
 .dato span{font-size:.92rem;opacity:.8}
 
@@ -154,9 +158,18 @@ section{padding:88px 0}
 .servicio h3{font-size:1.2rem;margin-bottom:10px}
 .servicio p{color:var(--gris);font-size:.96rem}
 
+.filtros{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.filtros button{font:inherit;font-weight:600;font-size:.92rem;cursor:pointer;padding:9px 18px;border-radius:999px;border:2px solid var(--asfalto);background:transparent;color:var(--asfalto);transition:background .15s,color .15s}
+.filtros button:hover{background:rgba(28,31,35,.08)}
+.filtros button[aria-pressed="true"]{background:var(--asfalto);color:var(--amarillo)}
+.filtros button small{opacity:.65;font-weight:500;margin-left:4px}
 .galeria{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.galeria img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block}
+.galeria figure{position:relative;margin:0;border-radius:12px;overflow:hidden}
+.galeria figure[hidden]{display:none}
+.galeria img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block}
+.galeria figcaption{position:absolute;left:10px;bottom:10px;background:rgba(28,31,35,.85);color:var(--amarillo);font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.8px;padding:4px 10px;border-radius:999px}
 @media (max-width:900px){.galeria{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.galeria{grid-template-columns:1fr}}
 .oscuro{background:var(--asfalto);color:var(--blanco)}
 .oscuro .titulo p{color:rgba(255,255,255,.7)}
 .oscuro .titulo small{color:var(--amarillo)}
@@ -239,7 +252,8 @@ footer b{color:var(--blanco)}
 <main>
 <section class="portada" id="inicio">
   <div class="contenedor">
-    <div class="etiqueta">Tudela de Duero · Valladolid</div>
+    <img class="logo-portada" src="img/logo-mag.webp" alt="Logotipo de Excavaciones MAG: excavaciones, derribos, vaciados y limpiezas forestales" width="500" height="479">
+    <div class="etiqueta">Sanchidrián (Ávila) · Ávila y Valladolid</div>
     <h1>Excavaciones, piscinas y maquinaria <em>con quien sabe mover tierra</em></h1>
     <p>Preparamos tu terreno de principio a fin: excavación, movimiento de tierras, construcción de piscinas, albañilería y alquiler de maquinaria con o sin operario.</p>
     <div class="acciones">
@@ -250,7 +264,7 @@ footer b{color:var(--blanco)}
     <div class="datos">
       <div class="dato"><b>+61.000 partidas</b><span>Presupuestador online gratuito</span></div>
       <div class="dato"><b>Maquinaria propia</b><span>Disponible para tu obra</span></div>
-      <div class="dato"><b>Toda la provincia</b><span>Valladolid y alrededores</span></div>
+      <div class="dato"><b>Ávila y Valladolid</b><span>Nos desplazamos a tu obra</span></div>
     </div>
   </div>
 </section>
@@ -296,15 +310,31 @@ footer b{color:var(--blanco)}
     <div class="titulo">
       <small>Nuestros trabajos</small>
       <h2>Obras realizadas</h2>
-      <p>Algunas de las obras y máquinas con las que trabajamos.</p>
+      <p>Algunas de nuestras obras, clasificadas por tipo de trabajo.</p>
+    </div>
+    <div class="filtros" role="group" aria-label="Filtrar trabajos por tipo" hidden>
+      <button type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+      <button type="button" data-filtro="excavaciones" aria-pressed="false">Excavaciones</button>
+      <button type="button" data-filtro="vaciados" aria-pressed="false">Vaciados</button>
+      <button type="button" data-filtro="derribos" aria-pressed="false">Derribos</button>
+      <button type="button" data-filtro="forestal" aria-pressed="false">Limpiezas forestales</button>
     </div>
     <div class="galeria">
-      <img src="img/retro-demolicion-2.webp" alt="Retroexcavadora derribando un muro" loading="lazy" width="800" height="600">
-      <img src="img/mini-zanja.webp" alt="Zanja junto a una vivienda" loading="lazy" width="800" height="600">
-      <img src="img/piscina.webp" alt="Excavación para piscina de obra" loading="lazy" width="800" height="600">
-      <img src="img/retro-demolicion.webp" alt="Demolición de una edificación con retroexcavadora" loading="lazy" width="800" height="600">
-      <img src="img/terreno-limpio.webp" alt="Parcela limpia tras la demolición" loading="lazy" width="800" height="600">
-      <img src="img/miniexcavadora.webp" alt="Miniexcavadora para alquiler" loading="lazy" width="800" height="600">
+      <figure data-cat="excavaciones"><img src="img/zanja-retro-urbanizacion.webp" alt="Retroexcavadora abriendo una zanja en una urbanización" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
+      <figure data-cat="vaciados"><img src="img/vaciado-solar.webp" alt="Retroexcavadora CAT vaciando un solar junto a viviendas nuevas" loading="lazy" width="800" height="600"><figcaption>Vaciados</figcaption></figure>
+      <figure data-cat="derribos"><img src="img/derribo-escombros.webp" alt="Retirada de escombros de un derribo con la pala cargadora" loading="lazy" width="800" height="600"><figcaption>Derribos</figcaption></figure>
+      <figure data-cat="forestal"><img src="img/desbroce-parcela.webp" alt="Desbroce de una parcela con maleza" loading="lazy" width="800" height="600"><figcaption>Limpiezas forestales</figcaption></figure>
+      <figure data-cat="excavaciones"><img src="img/zanja-campo.webp" alt="Zanja para canalización en una finca" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
+      <figure data-cat="vaciados"><img src="img/explanacion-terreno.webp" alt="Explanación y nivelación del terreno" loading="lazy" width="800" height="600"><figcaption>Vaciados</figcaption></figure>
+      <figure data-cat="excavaciones"><img src="img/zanja-operarios.webp" alt="Operarios trabajando en una zanja junto a la retroexcavadora" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
+      <figure data-cat="excavaciones"><img src="img/mixta-zanja.webp" alt="Retroexcavadora mixta abriendo una zanja" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
+      <figure data-cat="excavaciones"><img src="img/mini-zanja.webp" alt="Zanja junto a una vivienda con miniexcavadora" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
+      <figure data-cat="excavaciones"><img src="img/miniexcavadora.webp" alt="Miniexcavadora trabajando en obra" loading="lazy" width="800" height="600"><figcaption>Excavaciones</figcaption></figure>
+      <figure data-cat="vaciados"><img src="img/piscina.webp" alt="Vaciado de terreno para piscina de obra" loading="lazy" width="800" height="600"><figcaption>Vaciados</figcaption></figure>
+      <figure data-cat="derribos"><img src="img/retro-demolicion-2.webp" alt="Retroexcavadora derribando un muro" loading="lazy" width="800" height="600"><figcaption>Derribos</figcaption></figure>
+      <figure data-cat="derribos"><img src="img/retro-demolicion.webp" alt="Derribo de una edificación con retroexcavadora" loading="lazy" width="800" height="600"><figcaption>Derribos</figcaption></figure>
+      <figure data-cat="derribos"><img src="img/terreno-limpio.webp" alt="Parcela limpia tras el derribo" loading="lazy" width="800" height="600"><figcaption>Derribos</figcaption></figure>
+    </div>
     </div>
   </div>
 </section>
@@ -314,10 +344,10 @@ footer b{color:var(--blanco)}
     <div class="titulo">
       <small>Por qué nosotros</small>
       <h2>Trabajo serio, de la zona y a tu medida</h2>
-      <p>Somos de Tudela de Duero y trabajamos cada obra como si fuera nuestra.</p>
+      <p>Somos de Sanchidrián (Ávila) y trabajamos cada obra como si fuera nuestra.</p>
     </div>
     <div class="ventajas">
-      <div class="ventaja"><div class="num">01</div><h3>Trato directo</h3><p>Hablas directamente con Chistian Arribas, quien hace el trabajo. Sin intermediarios ni sorpresas en la factura.</p></div>
+      <div class="ventaja"><div class="num">01</div><h3>Trato directo</h3><p>Hablas directamente con Christian Arribas, quien hace el trabajo. Sin intermediarios ni sorpresas en la factura.</p></div>
       <div class="ventaja"><div class="num">02</div><h3>Medios propios</h3><p>Maquinaria y transporte propios para cumplir plazos y adaptarnos a tu obra.</p></div>
       <div class="ventaja"><div class="num">03</div><h3>Presupuesto claro</h3><p>Visitamos la obra y te damos un presupuesto detallado y sin compromiso.</p></div>
     </div>
@@ -329,21 +359,26 @@ footer b{color:var(--blanco)}
     <div>
       <div class="titulo" style="margin-bottom:0">
         <small>Dónde trabajamos</small>
-        <h2>Valladolid y provincia</h2>
-        <p>Desde Tudela de Duero nos desplazamos a toda la provincia de Valladolid y alrededores.</p>
+        <h2>Ávila, Valladolid y alrededores</h2>
+        <p>Desde Sanchidrián, junto a la A-6, nos desplazamos a toda la provincia de Ávila y de Valladolid.</p>
       </div>
       <div class="pueblos">
-        <span>Tudela de Duero</span><span>Valladolid</span><span>Laguna de Duero</span><span>Boecillo</span><span>Herrera de Duero</span><span>Villabáñez</span><span>Peñafiel</span><span>Simancas</span><span>Arroyo de la Encomienda</span><span>Y más</span>
+        <span>Sanchidrián</span><span>Ávila</span><span>Arévalo</span><span>Adanero</span><span>Las Berlanas</span><span>Velayos</span><span>Medina del Campo</span><span>Valladolid</span><span>Tudela de Duero</span><span>Laguna de Duero</span><span>Simancas</span><span>Y más</span>
       </div>
     </div>
     <div class="mapa" aria-hidden="true">
-      <svg viewBox="0 0 300 220">
-        <path d="M30 60 L90 25 L170 30 L240 55 L275 110 L250 170 L180 200 L95 195 L40 160 L20 110Z" fill="#f6f3ee" stroke="#d8cfc2" stroke-width="2"/>
-        <path d="M20 130 C80 120 120 140 160 125 S240 110 280 120" stroke="#7fb2d6" stroke-width="4" fill="none" stroke-linecap="round"/>
-        <circle cx="120" cy="105" r="6" fill="#8a5a32"/><text x="68" y="95" font-family="Inter" font-size="12" fill="#5f6670">Valladolid</text>
-        <circle cx="170" cy="122" r="22" fill="#f2b705" opacity=".25"/>
-        <circle cx="170" cy="122" r="8" fill="#f2b705" stroke="#1c1f23" stroke-width="2"/>
-        <text x="150" y="160" font-family="Archivo" font-weight="700" font-size="13" fill="#1c1f23">Tudela de Duero</text>
+      <svg viewBox="0 0 300 260">
+        <path d="M60 20 L200 14 L262 60 L270 120 L250 190 L190 246 L100 242 L46 196 L30 120 L36 60Z" fill="#f6f3ee" stroke="#d8cfc2" stroke-width="2"/>
+        <path d="M30 70 C90 62 130 82 170 70 S240 56 272 66" stroke="#7fb2d6" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M118 58 L132 120 L150 160 L178 214" stroke="#c9bfb1" stroke-width="3" stroke-dasharray="6 5" fill="none"/>
+        <text x="186" y="208" font-family="Inter" font-size="10" fill="#5f6670">A-6</text>
+        <circle cx="118" cy="58" r="6" fill="#8a5a32"/><text x="60" y="48" font-family="Inter" font-size="12" fill="#5f6670">Valladolid</text>
+        <circle cx="160" cy="62" r="4" fill="#8a5a32"/><text x="168" y="54" font-family="Inter" font-size="11" fill="#5f6670">Tudela</text>
+        <circle cx="132" cy="120" r="4" fill="#8a5a32"/><text x="58" y="124" font-family="Inter" font-size="11" fill="#5f6670">Arévalo</text>
+        <circle cx="190" cy="228" r="6" fill="#8a5a32"/><text x="200" y="232" font-family="Inter" font-size="12" fill="#5f6670">Ávila</text>
+        <circle cx="150" cy="160" r="24" fill="#f2b705" opacity=".25"/>
+        <circle cx="150" cy="160" r="8" fill="#f2b705" stroke="#1c1f23" stroke-width="2"/>
+        <text x="166" y="158" font-family="Archivo" font-weight="700" font-size="13" fill="#1c1f23">Sanchidrián</text>
       </svg>
     </div>
   </div>
@@ -360,7 +395,7 @@ footer b{color:var(--blanco)}
       <a class="tarjeta" href="tel:+34654158664"><small>Teléfono</small><b>654 158 664</b><span>Llama directamente</span></a>
       <a class="tarjeta" href="https://wa.me/34654158664?text=Hola%2C%20quer%C3%ADa%20pedir%20presupuesto" target="_blank" rel="noopener"><small>WhatsApp</small><b>Escríbenos</b><span>Envíanos fotos de tu obra</span></a>
       <a class="tarjeta" href="presupuestos.html"><small>Online</small><b>Presupuestador</b><span>Calcula tu obra con +61.000 partidas</span></a>
-      <a class="tarjeta" href="https://www.google.com/maps/search/?api=1&query=Calle+Manzano+2,+47320+Tudela+de+Duero" target="_blank" rel="noopener"><small>Dirección</small><b>C/ Manzano, 2</b><span>47320 Tudela de Duero (Valladolid)</span></a>
+      <a class="tarjeta" href="https://www.google.com/maps/search/?api=1&query=Calle+Estaci%C3%B3n+3,+05290+Sanchidri%C3%A1n,+%C3%81vila" target="_blank" rel="noopener"><small>Dirección</small><b>C/ Estación, 3</b><span>05290 Sanchidrián (Ávila)</span></a>
     </div>
   </div>
 </section>
@@ -369,11 +404,11 @@ footer b{color:var(--blanco)}
 <footer>
   <div class="contenedor">
     <div class="pie">
-      <div><b>Excavaciones MAG</b> · Chistian Arribas<br>Excavación · Piscinas · Albañilería · Alquiler de maquinaria</div>
-      <div>Tel. <a href="tel:+34654158664">654 158 664</a><br>Calle Manzano, 2 · 47320 Tudela de Duero (Valladolid)</div>
+      <div><b>Excavaciones MAG</b> · Christian Arribas Maroto<br>Excavación · Piscinas · Albañilería · Alquiler de maquinaria</div>
+      <div>Tel. <a href="tel:+34654158664">654 158 664</a><br>C/ Estación, 3 · 05290 Sanchidrián (Ávila)</div>
     </div>
     <div class="legal">
-      Titular: Chistian Arribas · Calle Manzano, 2, 47320 Tudela de Duero (Valladolid).
+      Titular: Christian Arribas Maroto · NIF 70804620V · C/ Estación, 3, 05290 Sanchidrián (Ávila) · Tel. 654 158 664.
       © <span id="anio">2026</span> Todos los derechos reservados.
     </div>
   </div>
@@ -383,6 +418,25 @@ footer b{color:var(--blanco)}
   <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></svg>
 </a>
 
-<script>document.getElementById('anio').textContent=new Date().getFullYear();</script>
+<script>
+document.getElementById('anio').textContent=new Date().getFullYear();
+// Galería: filtros por tipo de trabajo. Para añadir fotos basta con un <figure data-cat="..."> nuevo.
+(function(){
+  const filtros=document.querySelector('.filtros');
+  const fotos=[...document.querySelectorAll('.galeria figure')];
+  const botones=[...filtros.querySelectorAll('button')];
+  botones.forEach(b=>{
+    const f=b.dataset.filtro;
+    const n=f==='todos'?fotos.length:fotos.filter(x=>x.dataset.cat===f).length;
+    if(!n){b.remove();return}
+    b.insertAdjacentHTML('beforeend','<small>'+n+'</small>');
+    b.addEventListener('click',()=>{
+      filtros.querySelectorAll('button').forEach(o=>o.setAttribute('aria-pressed',o===b));
+      fotos.forEach(x=>x.hidden=!(f==='todos'||x.dataset.cat===f));
+    });
+  });
+  filtros.hidden=false;
+})();
+</script>
 </body>
 </html>
